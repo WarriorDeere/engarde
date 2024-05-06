@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:700|Ubuntu:400|Bebas%20Neue:400');
+
+body {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  background-color: var(--background);
+  color: var(--text);
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  width: 100dvw;
+  overflow-x: hidden;
+}
+
+/* 16px */
+
+h1 {
+  font-size: 4.210rem;
+  /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem;
+  /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem;
+  /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem;
+  /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem;
+  /* 21.28px */
+}
+
+small {
+  font-size: 0.750rem;
+  /* 12px */
+}
+
+main.landing-page {
+  position: relative;
+  overflow: hidden;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+:root {
+  --text: #ecedf0;
+  --background: #000005;
+  --primary: #b4b5c4;
+  --secondary: #5c5449;
+  --accent: #96a188;
+
+  --text-50: #f1f1f4;
+  --text-100: #e2e4e9;
+  --text-200: #c6c9d2;
+  --text-300: #a9aebc;
+  --text-400: #8d93a5;
+  --text-500: #70788f;
+  --text-600: #5a6072;
+  --text-700: #434856;
+  --text-800: #2d3039;
+  --text-900: #16181d;
+  --text-950: #0b0c0e;
+
+  --background-50: #e5e5ff;
+  --background-100: #ccccff;
+  --background-200: #9999ff;
+  --background-300: #6666ff;
+  --background-400: #3333ff;
+  --background-500: #0000ff;
+  --background-600: #0000cc;
+  --background-700: #000099;
+  --background-800: #000066;
+  --background-900: #000033;
+  --background-950: #00001a;
+
+  --primary-50: #f1f1f4;
+  --primary-100: #e2e3e9;
+  --primary-200: #c6c7d2;
+  --primary-300: #a9abbc;
+  --primary-400: #8d8ea5;
+  --primary-500: #70728f;
+  --primary-600: #5a5b72;
+  --primary-700: #434556;
+  --primary-800: #2d2e39;
+  --primary-900: #16171d;
+  --primary-950: #0b0b0e;
+
+  --secondary-50: #f4f3f1;
+  --secondary-100: #e9e6e2;
+  --secondary-200: #d2cdc6;
+  --secondary-300: #bcb4a9;
+  --secondary-400: #a59b8d;
+  --secondary-500: #8f8270;
+  --secondary-600: #72685a;
+  --secondary-700: #564e43;
+  --secondary-800: #39342d;
+  --secondary-900: #1d1a16;
+  --secondary-950: #0e0d0b;
+
+  --accent-50: #f2f4f1;
+  --accent-100: #e6e9e2;
+  --accent-200: #cdd2c6;
+  --accent-300: #b4bca9;
+  --accent-400: #9ba58d;
+  --accent-500: #828f70;
+  --accent-600: #68725a;
+  --accent-700: #4e5643;
+  --accent-800: #34392d;
+  --accent-900: #1a1d16;
+  --accent-950: #0d0e0b;
+
+  --linearPrimarySecondary: linear-gradient(#b4b5c4, #5c5449);
+  --linearPrimaryAccent: linear-gradient(#b4b5c4, #96a188);
+  --linearSecondaryAccent: linear-gradient(#5c5449, #96a188);
+  --radialPrimarySecondary: radial-gradient(#b4b5c4, #5c5449);
+  --radialPrimaryAccent: radial-gradient(#b4b5c4, #96a188);
+  --radialSecondaryAccent: radial-gradient(#5c5449, #96a188);
+}
